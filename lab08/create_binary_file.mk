@@ -1,1 +1,3 @@
-/web/cs1521/20T2/activities/create_binary_file/files.ln/create_binary_file.mk
+EXERCISES	+= create_binary_file
+CLEAN_FILES	+= create_binary_file create_binary_file.o
+create_binary_file:	create_binary_file.c

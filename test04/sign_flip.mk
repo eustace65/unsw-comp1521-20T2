@@ -1,1 +1,3 @@
-/web/cs1521/20T2/activities/sign_flip/files.ln/sign_flip.mk
+EXERCISES	+= sign_flip
+CLEAN_FILES	+= sign_flip sign_flip.o test_sign_flip.o
+sign_flip:	sign_flip.c test_sign_flip.c

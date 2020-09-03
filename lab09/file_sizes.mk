@@ -1,1 +1,3 @@
-/web/cs1521/20T2/activities/file_sizes/files.ln/file_sizes.mk
+EXERCISES	+= file_sizes
+CLEAN_FILES	+= file_sizes file_sizes.o
+file_sizes:	file_sizes.c

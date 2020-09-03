@@ -1,1 +1,10 @@
-/web/cs1521/20T2/activities/print_bigger/files.ln/numbers2.txt
+53906
+9064
+40906
+4504
+4774
+7892
+15334
+45515
+55387
+5681

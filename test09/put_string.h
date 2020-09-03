@@ -1,1 +1,6 @@
-/web/cs1521/20T2/activities/put_string/files.ln/put_string.h
+#ifndef PUT_STRING_H
+#define PUT_STRING_H
+
+void put_string(char *str);
+
+#endif

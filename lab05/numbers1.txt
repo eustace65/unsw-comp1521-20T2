@@ -1,1 +1,10 @@
-/web/cs1521/20T2/activities/print_bigger/files.ln/numbers1.txt
+12086
+24363
+47363
+64268
+34001
+6800
+60742
+48867
+26002
+54999

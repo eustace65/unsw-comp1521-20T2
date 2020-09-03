@@ -1,1 +1,19 @@
-/web/cs1521/20T2/activities/add/files.ln/test_add.c
+#include <stdio.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <assert.h>
+
+#include "add.h"
+
+int main(int argc, char *argv[]) {
+    if (argc != 4) {
+        fprintf(stderr, "Usage: %s <d> <s> <t>\n", argv[0]);
+        return 1;
+    }
+    int d = strtol(argv[1], NULL, 0);
+    int s = strtol(argv[2], NULL, 0);
+    int t = strtol(argv[3], NULL, 0);
+    uint32_t result = add(d, s, t);
+    printf("add(%d, %d, %d) returned 0x%08x\n", d, s, t, result);
+    return 0;
+}

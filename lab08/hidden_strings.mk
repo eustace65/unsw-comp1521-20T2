@@ -1,1 +1,3 @@
-/web/cs1521/20T2/activities/hidden_strings/files.ln/hidden_strings.mk
+EXERCISES	+= hidden_strings
+CLEAN_FILES	+= hidden_strings hidden_strings.o
+hidden_strings:	hidden_strings.c

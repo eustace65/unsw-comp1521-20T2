@@ -1,1 +1,3 @@
-/web/cs1521/20T2/activities/print_bytes/files.ln/print_bytes.mk
+EXERCISES	+= print_bytes
+CLEAN_FILES	+= print_bytes print_bytes.o
+print_bytes:	print_bytes.c

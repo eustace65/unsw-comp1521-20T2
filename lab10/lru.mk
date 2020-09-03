@@ -1,1 +1,3 @@
-/web/cs1521/20T2/activities/lru/files.ln/lru.mk
+EXERCISES	+= lru
+CLEAN_FILES	+= lru lru.o
+lru:	lru.c

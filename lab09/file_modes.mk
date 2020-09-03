@@ -1,1 +1,3 @@
-/web/cs1521/20T2/activities/file_modes/files.ln/file_modes.mk
+EXERCISES	+= file_modes
+CLEAN_FILES	+= file_modes file_modes.o
+file_modes:	file_modes.c

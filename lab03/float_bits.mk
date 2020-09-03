@@ -1,1 +1,3 @@
-/web/cs1521/20T2/activities/float_bits/files.ln/float_bits.mk
+EXERCISES	+= float_bits
+CLEAN_FILES	+= float_bits float_bits.o test_float_bits.o
+float_bits:	float_bits.c test_float_bits.c

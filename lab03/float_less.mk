@@ -1,1 +1,3 @@
-/web/cs1521/20T2/activities/float_less/files.ln/float_less.mk
+EXERCISES	+= float_less
+CLEAN_FILES	+= float_less float_less.o test_float_less.o
+float_less:	float_less.c test_float_less.c

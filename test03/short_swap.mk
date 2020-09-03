@@ -1,1 +1,4 @@
-/web/cs1521/20T2/activities/short_swap/files.ln/short_swap.mk
+EXERCISES	+= short_swap
+CLEAN_FILES	+= short_swap short_swap.o test_short_swap.o
+
+short_swap:	short_swap.c test_short_swap.c

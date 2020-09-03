@@ -1,1 +1,3 @@
-/web/cs1521/20T2/activities/diary/files.ln/diary.mk
+EXERCISES	+= diary
+CLEAN_FILES	+= diary diary.o
+diary:	diary.c

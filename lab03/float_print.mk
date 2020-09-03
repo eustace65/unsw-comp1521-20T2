@@ -1,1 +1,3 @@
-/web/cs1521/20T2/activities/float_print/files.ln/float_print.mk
+EXERCISES	+= float_print
+CLEAN_FILES	+= float_print float_print.o test_float_print.o
+float_print:	float_print.c test_float_print.c

@@ -1,1 +1,3 @@
-/web/cs1521/20T2/activities/last_line/files.ln/last_line.mk
+EXERCISES	+= last_line
+CLEAN_FILES	+= last_line last_line.o
+last_line:	last_line.c

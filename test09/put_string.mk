@@ -1,1 +1,3 @@
-/web/cs1521/20T2/activities/put_string/files.ln/put_string.mk
+EXERCISES	+= put_string
+CLEAN_FILES	+= put_string put_string.o test_put_string.o
+put_string:	put_string.c test_put_string.c

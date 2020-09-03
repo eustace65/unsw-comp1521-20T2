@@ -1,1 +1,3 @@
-/web/cs1521/20T2/activities/add/files.ln/add.mk
+EXERCISES	+= add
+CLEAN_FILES	+= add add.o test_add.o
+add:	add.c test_add.c
